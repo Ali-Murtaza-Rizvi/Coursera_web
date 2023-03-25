@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+h1{
+    text-align: center;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.box{
+    width: 25%;
+    background-color: grey;
+    border: 2px solid black;
+    
+}
+.content{
+    padding: 10px;
+    clear: right;
+    color: black;
+    font-size: medium;
+    font-weight: 300;
+}
+.textS{
+    background-color: rgb(180, 180, 31);
+    float: right;
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    font-size: larger 75%;
+    font-weight: bold;
+}
+.textC{
+    background-color: pink;
+    float: right;
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
+    font-size: larger 75%;
+    font-weight: bold;
+}
+.textB{
+    background-color: red;
+    float: right;
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+    font-size: larger 75%;
+    font-weight: bold;
+}
+@media (min-width: 992px) {
+    .lg{
+        float: left;
+        width: 31%;
+        margin: 1%;
+        color: black;
+    }
+    .lgC{
+        background-color: pink;
+        float: right;
+        width: 25%;
+        text-align: center;
+    }
+    .lgB{
+    background-color: red;
+    float: right;
+    width: 20%;
+    text-align: center;
+    color: aliceblue;
+    }
+    .lgS{
+    background-color: rgb(180, 180, 31);
+    float: right;
+    width: 20%;
+    text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .md{
+        float: left;
+        width: 48%;
+        margin: 1%;
+        color: black;
+    }
+    .mdSS{
+        float: left;
+        width: 98%;
+        margin: 1%;
+        color: black;
+
+    }
+    .mdC{
+        background-color: pink;
+        float: right;
+        width: 25%;
+        text-align: center;
+    }
+    .mdB{
+    background-color: red;
+    float: right;
+    width: 20%;
+    text-align: center;
+    color: aliceblue;    
+    }
+    .mdS{
+    background-color: rgb(180, 180, 31);
+    float: right;
+    width: 20%;
+    text-align: center;
+    }
+}
+@media (max-width: 768px){
+    .sd{
+        float: left;
+        width: 98%;
+        margin: 1%;
+        color: black;
+        
+    }
+    .sdC{
+        background-color: pink;
+        float: right;
+        width: 25%;
+        text-align: center;
+    
+    }
+    .sdB{
+    background-color: red;
+    float: right;
+    width: 20%;
+    text-align: center;
+    color: aliceblue;    
+    }
+    .sdS{
+    background-color: rgb(180, 180, 31);
+    float: right;
+    width: 20%;
+    text-align: center;
+    }
+    
+    
+}
